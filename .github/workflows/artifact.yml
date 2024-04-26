@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: hello-artifact
-          path: ./artifact
+          path: ./artifacts
       
       - name: display atifact content
         run: cat ./artifacts/hello.txt
